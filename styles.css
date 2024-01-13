@@ -41,3 +41,17 @@ select {
 textarea {
     resize: none;
 }
+input:focus,
+textarea:focus {
+    background-color: rgb(217, 227, 247);
+}
+.inline-control {
+    display: flex;
+}
+.inline-control label {
+    margin: 0;
+    margin-left: 0.5rem;
+}
+.inline-control input {
+    width: auto;
+}
